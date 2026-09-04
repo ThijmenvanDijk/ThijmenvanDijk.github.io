@@ -1,4 +1,143 @@
-h1 {
-    color :aqua;
-    font-size: 2.5em;
+h1,
+title,
+h2,
+p,
+table,
+th,
+td {
+    color: red;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+/* table */
+
+table, th, td {
+    border: 1px solid red;
+    border-collapse: collapse;
+    width: 600px;
+}
+td {
+    border: 1px solid red;
+padding: 15px;
+font-size: 24px;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+.content {
+    margin-left: 200px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* background */
+
+body {
+    background-image: url("background.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* navbar*/
+
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 80px;
+    height: 100vh;
+    background-color: black;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar .socials {
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+
+.navbar a {
+    display: block;
+    color: red;
+    padding: 10px;
+    text-decoration: none;
+}
+
+/* text bubble */
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bubble {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 600px;
+    min-height: 300px;
+
+    background: black;
+    color: white;
+
+    border-radius: 45px;
+    padding: 40px;
+
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    text-align: center;
+
+    box-sizing: border-box;
+}
+
+/* pictures profile */
+
+.ow-picture {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 200px;
+}
+
+.cyberpunk-picture {
+    position: absolute;
+    right: 20px;
+    top: 21%;
+    transform: translateY(-50%);
+    width: 200px;
+}
+
+.re-picture {
+    position: absolute;
+    right: 20px;
+    top: 58%;
+    width: 200px;
+    height: 250px;
 }
