@@ -42,23 +42,28 @@ td {
 
 /* background */
 
-body {
+html {
     background-image: url("background.jpg");
-    height: 100vh;
     background-size: cover;
     background-position: center;
     flex-direction: column;
 }
 
-body {
+head {
   margin: 0;
-  height: 100vh;
+  
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 /* navbar*/
+
+@media (max-width: 760px){
+body{
+    display: block;
+}
+}
 
 .navbar {
     position: fixed;
@@ -68,8 +73,9 @@ body {
     height: 100vh;
     background-color: black;
     padding-top: 20px;
-    display: flex;
+    display: block;
     flex-direction: column;
+    border-color: black;
 }
 
 .navbar .socials {
@@ -78,10 +84,16 @@ body {
 }
 
 .navbar a {
-    display: block;
     color: red;
-    padding: 10px;
+    padding: 10px 15px;
     text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    background-color: red;
+    color: black;
 }
 
 /* text bubble */
@@ -118,6 +130,14 @@ body {
 
 /* pictures profile */
 
+.pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
 .ow-picture {
     position: absolute;
     right: 20px;
@@ -140,4 +160,55 @@ body {
     top: 58%;
     width: 200px;
     height: 250px;
+}
+
+.picture-drum {
+    position: absolute;
+    left: 70px;
+    top: 81%;
+    transform: translateY(-50%);
+    width: 200px;
+}
+
+.dirtbike-picture {
+    position: absolute;
+    left: 70px;
+    top: 21%;
+    transform: translateY(-50%);
+    width: 200px;
+}
+
+.picture-molly {
+    position: absolute;
+    left: 270px;
+    top: 81%;
+    transform: translateY(-50%);
+    width: 200px;
+}
+
+.requiem-picture {
+    position: absolute;
+    right: 220px;
+    top: 79%;
+    transform: translateY(-50%);
+    width: 200px;
+}
+.fantasm-picture {
+    position: absolute;
+    right: 420px;
+    top: 80%;
+    transform: translateY(-50%);
+    width: 200px;
+}
+/* flexbox container*/
+
+.flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
 }
