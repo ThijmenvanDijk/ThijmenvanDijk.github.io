@@ -128,14 +128,6 @@ body {
     box-sizing: border-box;
 }
 
-.bubble img {
-    width: 120px;
-    height: 80px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-left: auto;
-}
-
 /* pictures profile */
 
 .pictures {
@@ -146,28 +138,12 @@ body {
     gap: 20px;
 }
 
-.ow-picture {
+.games {
     position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 200px;
-}
-
-.cyberpunk-picture {
-    position: absolute;
-    right: 20px;
-    top: 21%;
-    transform: translateY(-50%);
-    width: 200px;
-}
-
-.re-picture {
-    position: absolute;
-    right: 20px;
-    top: 58%;
-    width: 200px;
-    height: 250px;
+    right: 0px;
+    top: 0%;
+    width: 363px;
+    height: 272px;
 }
 
 .picture-drum {
@@ -194,20 +170,15 @@ body {
     width: 200px;
 }
 
-.requiem-picture {
+.music {
     position: absolute;
-    right: 220px;
-    top: 79%;
+    right: 0px;
+    top: 83%;
     transform: translateY(-50%);
-    width: 200px;
+    width: 500px;
+    height: 245px;
 }
-.fantasm-picture {
-    position: absolute;
-    right: 420px;
-    top: 80%;
-    transform: translateY(-50%);
-    width: 200px;
-}
+
 /* flexbox container*/
 
 .flexbox {
