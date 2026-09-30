@@ -72,7 +72,7 @@ head {
     position: fixed;
     left: 0;
     top: 0;
-    width: 80px;
+    width: 90px;
     height: 100vh;
     background-color: black;
     padding-top: 20px;
@@ -173,24 +173,24 @@ body {
 
 .picture-drum {
     position: absolute;
-    left: 70px;
-    top: 84%;
+    left: 90px;
+    top: 85%;
     transform: translateY(-50%);
     width: 200px;
 }
 
 .dirtbike-picture {
     position: absolute;
-    left: 70px;
-    top: 21%;
+    left: 90px;
+    top: 15%;
     transform: translateY(-50%);
     width: 200px;
 }
 
 .picture-molly {
     position: absolute;
-    left: 270px;
-    top: 84%;
+    left: 290px;
+    top: 85%;
     transform: translateY(-50%);
     width: 200px;
 }
