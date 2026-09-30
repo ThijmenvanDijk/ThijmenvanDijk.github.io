@@ -79,6 +79,7 @@ head {
     display: block;
     flex-direction: column;
     border-color: black;
+    gap: 30px;
 }
 
 .navbar .socials {
@@ -90,9 +91,9 @@ head {
     color: red;
     padding: 10px 15px;
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 20px;
     transition: 0.3s;
-}
+} 
 
 .navbar a:hover {
     background-color: red;
