@@ -16,15 +16,18 @@ p {
 
 /* table */
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid red;
     border-collapse: collapse;
     width: 600px;
 }
+
 td {
     border: 1px solid red;
-padding: 15px;
-font-size: 24px;
+    padding: 15px;
+    font-size: 24px;
 }
 
 th,
@@ -50,19 +53,19 @@ html {
 }
 
 head {
-  margin: 0;
-  
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* navbar*/
 
-@media (max-width: 760px){
-body{
-    display: block;
-}
+@media (max-width: 760px) {
+    body {
+        display: block;
+    }
 }
 
 .navbar {
@@ -99,14 +102,36 @@ body{
 /* text bubble */
 
 body {
-  margin: 0;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .bubble {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 600px;
+    min-height: 300px;
+
+    background: black;
+    color: white;
+
+    border-radius: 45px;
+    padding: 40px;
+
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    text-align: center;
+
+    box-sizing: border-box;
+}
+
+.bubble-whyict {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -149,7 +174,7 @@ body {
 .picture-drum {
     position: absolute;
     left: 70px;
-    top: 81%;
+    top: 84%;
     transform: translateY(-50%);
     width: 200px;
 }
@@ -165,7 +190,7 @@ body {
 .picture-molly {
     position: absolute;
     left: 270px;
-    top: 81%;
+    top: 84%;
     transform: translateY(-50%);
     width: 200px;
 }
@@ -173,10 +198,10 @@ body {
 .music {
     position: absolute;
     right: 0px;
-    top: 83%;
+    top: 84%;
     transform: translateY(-50%);
-    width: 500px;
-    height: 245px;
+    width: 600px;
+    height: 294px;
 }
 
 /* flexbox container*/
