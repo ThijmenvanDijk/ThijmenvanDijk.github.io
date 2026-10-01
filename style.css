@@ -54,7 +54,6 @@ html {
 
 head {
     margin: 0;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,7 +78,6 @@ head {
     display: block;
     flex-direction: column;
     border-color: black;
-    gap: 30px;
 }
 
 .navbar .socials {
@@ -252,7 +250,7 @@ body {
 
 .games {
     position: absolute;
-    right: 0px;
+    right: 0%;
     top: 0%;
     width: 363px;
     height: 272px;
@@ -260,15 +258,15 @@ body {
 
 .picture-drum {
     position: absolute;
-    left: 90px;
-    top: 85%;
+    left: 5%;
+    top: 86%;
     transform: translateY(-50%);
     width: 200px;
 }
 
 .dirtbike-picture {
     position: absolute;
-    left: 90px;
+    left: 5%;
     top: 15%;
     transform: translateY(-50%);
     width: 200px;
@@ -276,15 +274,15 @@ body {
 
 .picture-molly {
     position: absolute;
-    left: 290px;
-    top: 85%;
+    left: 18%;
+    top: 86%;
     transform: translateY(-50%);
     width: 200px;
 }
 
 .music {
     position: absolute;
-    right: 0px;
+    right: 0%;
     top: 84%;
     transform: translateY(-50%);
     width: 600px;
@@ -293,7 +291,7 @@ body {
 
 /* flexbox container*/
 
-.flexbox {
+/* .flexbox {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -302,4 +300,4 @@ body {
     width: 90%;
     max-width: 1200px;
     margin: 40px auto;
-}
+} */
