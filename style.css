@@ -78,6 +78,7 @@ head {
     display: block;
     flex-direction: column;
     border-color: black;
+    gap: 20px;
 }
 
 .navbar .socials {
@@ -108,7 +109,7 @@ body {
     align-items: center;
 }
 
-.bubble {
+.bubble-profile {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -157,8 +158,8 @@ body {
     left: 25%;
     transform: translate(-50%, -50%);
 
-    width: 600px;
-    min-height: 300px;
+    width: 300px;
+    min-height: 150px;
 
     background: green;
     color: white;
@@ -179,10 +180,10 @@ body {
     left: 25%;
     transform: translate(-50%, -50%);
 
-    width: 600px;
-    min-height: 300px;
+    width: 300px;
+    min-height: 150px;
 
-    background: rgb(173, 190, 230);
+    background: green;
     color: white;
 
     border-radius: 45px;
@@ -201,10 +202,10 @@ body {
     left: 75%;
     transform: translate(-50%, -50%);
 
-    width: 600px;
-    min-height: 300px;
+    width: 300px;
+    min-height: 150px;
 
-    background: orange;
+    background: #D2042D;
     color: white;
 
     border-radius: 45px;
@@ -223,10 +224,10 @@ body {
     left: 75%;
     transform: translate(-50%, -50%);
 
-    width: 600px;
-    min-height: 300px;
+    width: 300px;
+    min-height: 150px;
 
-    background: red;
+    background: #D2042D;
     color: white;
 
     border-radius: 45px;
@@ -235,7 +236,27 @@ body {
     font-family: Arial, sans-serif;
     font-size: 24px;
     text-align: center;
+    box-sizing: border-box;
+}
 
+.bubble-goals {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 300px;
+    min-height: 150px;
+
+    background: black;
+    color: white;
+
+    border-radius: 45px;
+    padding: 40px;
+
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    text-align: center;
     box-sizing: border-box;
 }
 /* pictures profile */
