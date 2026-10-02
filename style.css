@@ -35,6 +35,14 @@ td {
     padding: 10px;
 }
 
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .content {
     margin-left: 200px;
     min-height: 100vh;
@@ -75,16 +83,15 @@ head {
     height: 100vh;
     background-color: black;
     padding-top: 20px;
-    display: block;
+    display: flex;
     flex-direction: column;
     border-color: black;
-    gap: 20px;
 }
 
-.navbar .socials {
+/* .navbar .socials {
     margin-top: auto;
     margin-bottom: 20px;
-}
+} */
 
 .navbar a {
     color: red;
@@ -92,22 +99,25 @@ head {
     text-decoration: none;
     border-radius: 20px;
     transition: 0.3s;
-} 
+}
 
 .navbar a:hover {
     background-color: red;
     color: black;
+    padding: 10px 15px;
+    /* margin-bottom: 30px;
+    margin-top: 30px; */
 }
 
 /* text bubble */
 
-body {
+/* body {
     margin: 0;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
 .bubble-profile {
     position: absolute;
@@ -152,6 +162,7 @@ body {
 
     box-sizing: border-box;
 }
+
 .bubble-strengths {
     position: absolute;
     top: 25%;
@@ -259,6 +270,7 @@ body {
     text-align: center;
     box-sizing: border-box;
 }
+
 /* pictures profile */
 
 .pictures {
