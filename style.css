@@ -19,15 +19,23 @@ p {
 table,
 th,
 td {
-    border: 1px solid red;
-    border-collapse: collapse;
-    width: 600px;
+    max-width: 900px;
+    border: 5px solid black;
+    justify-self: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: rgb(255, 0, 0);
+    padding: 5px 25px;
+    text-shadow: 2px 2px 6px black;
+    border-style: groove;
+    border-radius: 25px;
+    font-size: large;
 }
 
 td {
     border: 1px solid red;
     padding: 15px;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 th,
@@ -45,10 +53,12 @@ body {
 
 .content {
     margin-left: 200px;
-    min-height: 100vh;
+    max-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
 }
 
 /* background */
@@ -152,6 +162,29 @@ head {
     box-sizing: border-box;
 }
 
+.bubble-dashboardtext {
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+
+    width: 280px;
+    min-height: 100px;
+
+    background: black;
+    color: white;
+
+    border-radius: 45px;
+    padding: 30px;
+
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+
+    box-sizing: border-box;
+}
+
+
 .bubble-blog {
     position: absolute;
     top: 50%;
@@ -174,9 +207,31 @@ head {
     box-sizing: border-box;
 }
 
-.bubble-direction {
+.bubble-software-development {
     position: absolute;
-    top: 50%;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 600px;
+    min-height: 300px;
+
+    background: black;
+    color: white;
+
+    border-radius: 45px;
+    padding: 40px;
+
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    text-align: center;
+
+    box-sizing: border-box;
+}
+
+.bubble-data-science {
+    position: absolute;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -306,13 +361,13 @@ head {
 
 /* pictures profile */
 
-.pictures {
+/* .pictures {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 20px;
-}
+}  */
 
 .games {
     position: absolute;
@@ -353,6 +408,24 @@ head {
     transform: translateY(-50%);
     width: 600px;
     height: 294px;
+}
+
+/* pictures Why IT? */
+
+.picture-motoport {
+    position: absolute;
+    left: 18%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 300px;
+}
+
+.picture-Paree {
+    position: absolute;
+    right: 18%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 300px;
 }
 
 /* flexbox container*/
