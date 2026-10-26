@@ -5,7 +5,7 @@ p,
 table,
 th,
 td {
-    color: red;
+    color: white;
 }
 
 h1,
@@ -153,6 +153,28 @@ head {
 }
 
 .bubble-blog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 600px;
+    min-height: 300px;
+
+    background: black;
+    color: white;
+
+    border-radius: 45px;
+    padding: 40px;
+
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    text-align: center;
+
+    box-sizing: border-box;
+}
+
+.bubble-direction {
     position: absolute;
     top: 50%;
     left: 50%;
