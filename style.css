@@ -386,15 +386,16 @@ head {
     box-sizing: border-box;
 }
 
-/* pictures profile */
+/* pictures */
 
-/* .pictures {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}  */
+.HZ-logo {
+    position: absolute;
+    right: 0%;
+    top: 85%;
+    transform: translateY(-50%);
+    width: 200px;
+    height: 200px;
+}
 
 .games {
     position: absolute;
